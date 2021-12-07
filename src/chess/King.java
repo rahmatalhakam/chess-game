@@ -1,4 +1,4 @@
-package chessv1;
+package chess;
 
 public class King {
 	private String name;

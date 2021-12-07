@@ -1,4 +1,4 @@
-package chessv1;
+package chess;
 
 public class Util {
 	public boolean isBlack(String name) {
@@ -9,7 +9,6 @@ public class Util {
 			} else
 				return false;
 		} catch (Exception e) {
-			// TODO: handle exception
 			return false;
 		}
 

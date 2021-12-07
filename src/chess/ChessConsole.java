@@ -1,8 +1,8 @@
-package chessv1;
+package chess;
 
 import java.util.Scanner;
 
-public class Main {
+public class ChessConsole {
 	public static void main(String[] args) {
 
 		int xNow, yNow, xMove, yMove;
@@ -29,7 +29,6 @@ public class Main {
 			} catch (Exception e) {
 				System.out.println("wrong input! try again");
 				System.out.println(e.getMessage());
-
 				e.printStackTrace();
 				System.exit(0);
 			}
